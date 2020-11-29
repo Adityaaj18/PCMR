@@ -1,0 +1,315 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    
+  <!-- Navbar-->
+<header class="header">
+    <nav class="navbar navbar-expand-lg fixed-top py-3">
+        <div class="container"><a href="#" class="navbar-brand text-uppercase font-weight-bold"><img src="#"></a>
+            <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
+            
+            <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+					<li class="nav-item active dropdown"><a href="#" class="nav-link text-uppercase font-weight-bold"> <i class="fas fa-stream"></i> PC COMPONENTS </i></a>
+						<button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">					 
+						 	  <a class="dropdown-item dropdown" href="#">Peripherals</a>
+							  <a class="dropdown-item" href="#">Motherboard</a>
+							  <a class="dropdown-item" href="#">Processor/CPU</a>
+							  <a class="dropdown-item" href="#">Memory/RAM</a>
+							  <a class="dropdown-item" href="#">Graphics Card/GPU</a>
+							  <a class="dropdown-item" href="#">Moniter</a>
+							  <a class="dropdown-item" href="#">Cabinet</a>							  								
+					   </div>
+					</li>
+					<li class="nav-item dropdown"><a href="#" class="nav-link text-uppercase font-weight-bold"><i class="fas fa-gamepad"></i>  Gaming Zone</a>
+						<button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">					 
+						 	  <a class="dropdown-item dropdown" href="#">Gaming Laptop</a>
+							  <a class="dropdown-item" href="#">Gaming Chair</a>
+							  <a class="dropdown-item" href="#">Fan Controller</a>
+							  <a class="dropdown-item" href="#">Game Pad</a>
+							  <a class="dropdown-item" href="#">Gaming Headset</a>
+							  <a class="dropdown-item" href="#">LED Strip</a>
+							  <a class="dropdown-item" href="#">LED Controller</a>							  								
+					   </div>
+					</li>
+                    <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold"><i class="fas fa-address-card"></i> About Us</a></li>
+					<li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold"><i class="fas fa-phone-square-alt"></i> Contact</a></li>
+					<li class="nav-item dropdown"><a href="#" class="nav-link text-uppercase font-weight-bold">Experience Zone</a>					
+						<button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+								<a class="dropdown-item" href="#">For AMD</a>
+								<a class="dropdown-item" href="#">For INTEL</a>
+								<a class="dropdown-item" href="#">For NVIDIA</a>				
+						   </div>
+					</li>
+					
+					  
+						</div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+
+<div class >
+
+
+	<section class="wave-section">
+		<div class="w3-content w3-section content" >
+		
+			<img class="mySlides w3-animate-top img-fluid" src="./images/amd1.jpg" >
+			<img class="mySlides w3-animate-bottom img-fluid" src="./images/Intel1.jpg" >
+			<img class="mySlides w3-animate-top img-fluid" src="./images/amd2.jpg" >
+			<img class="mySlides w3-animate-top img-fluid" src="https://freenews.live/wp-content/uploads/2020/08/intel.jpg" >
+			<img class="mySlides w3-animate-bottom img-fluid" src="./images/amd3.jpg" >
+			<img class="mySlides w3-animate-bottom img-fluid" src="./images/rtx.jpg" >
+			<svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,160L80,165.3C160,171,320,181,480,197.3C640,213,800,235,960,224C1120,213,1280,171,1360,149.3L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>		  
+		  <script>
+		  var myIndex = 0;
+		  carousel();
+		  
+		  function carousel() {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			for (i = 0; i < x.length; i++) {
+			  x[i].style.display = "none";  
+			}
+			myIndex++;
+			if (myIndex > x.length) {myIndex = 1}    
+			x[myIndex-1].style.display = "block";  
+			setTimeout(carousel, 2500);    
+		  }
+		  </script>
+		  
+	
+	</div>	
+	</section>
+	<div class="deals-grid">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="column col-lg-4 col-md-4 col-sm-12 col-12">
+					<img src="./images/deal-offer.jpg" alt="" height="400px" width="400px">
+				</div>
+				<div class=" column2 col-lg-4 col-md-4 col-sm-12 col-12">
+					<img class="img1" src="./images/400x180HyperxAlloyorigins-min-400x180.jpg" alt="" height="180px" width="400px"><br>
+					<img src="./images/400x180GigabyteG32QC-min-400x180.jpg" alt="" height="180px" width="400px">
+				</div>
+				<div class="  col-lg-4 col-md-4 col-sm-12 col-12">
+					<img class="img1" src="./images/400x180MSiEvolveGF63Thin-min-400x180.jpg" alt="" height="180px" width="400px"><br>
+					<img src="./images/400x180SapphireNitroRX 5700XT-min-400x180.jpg" alt="" height="180px" width="400px">
+				</div>
+				 	
+			</div>
+		</div>
+
+	</div>
+	<div class="img-slider">
+		<div class="slide active">
+		  <img src="./images/1320x300-MM720-BlackWhite-min-1320x300.jpg" alt="">
+		  <div class="info">
+		  </div>
+		</div>
+		<div class="slide">
+		  <img src="./images/1320x300-MSi-Valhalla-1-min-1320x300.jpg" alt="">
+		  <div class="info">
+		  </div>
+		</div>
+		<div class="navigation">
+		  <div class="btn active"></div>
+		  <div class="btn"></div>
+		  
+		</div>
+	  </div>
+  
+	  <script type="text/javascript">
+	  var slides = document.querySelectorAll('.slide');
+	  var btns = document.querySelectorAll('.btn');
+	  let currentSlide = 1;
+  
+	  // Javascript for image slider manual navigation
+	  var manualNav = function(manual){
+		slides.forEach((slide) => {
+		  slide.classList.remove('active');
+  
+		  btns.forEach((btn) => {
+			btn.classList.remove('active');
+		  });
+		});
+  
+		slides[manual].classList.add('active');
+		btns[manual].classList.add('active');
+	  }
+  
+	  btns.forEach((btn, i) => {
+		btn.addEventListener("click", () => {
+		  manualNav(i);
+		  currentSlide = i;
+		});
+	  });
+  
+	  // Javascript for image slider autoplay navigation
+	  var repeat = function(activeClass){
+		let active = document.getElementsByClassName('active');
+		let i = 1;
+  
+		var repeater = () => {
+		  setTimeout(function(){
+			[...active].forEach((activeSlide) => {
+			  activeSlide.classList.remove('active');
+			});
+  
+		  slides[i].classList.add('active');
+		  btns[i].classList.add('active');
+		  i++;
+  
+		  if(slides.length == i){
+			i = 0;
+		  }
+		  if(i >= slides.length){
+			return;
+		  }
+		  repeater();
+		}, 10000);
+		}
+		repeater();
+	  }
+	  repeat();
+	  </script>
+
+
+
+<div>
+
+	<h2><b>Products and Services</b></h2>
+
+<hr>
+
+<p><em>Most people today use computers either at work or at home. It is important that people have a quality resource for buying and servicing those computers. Eagle Computers will provide the West Hawaii community with just such a quality resource - a one-stop shop for IBM-compatible computers. Eagle Computers will offer the following products and services with excellent customer service in a friendly, professional, and pleasant environment:</em></p>
+<ul>
+	<li>
+		<strong>Ready-to-Sell Computers -</strong>
+		We will sell new and used computer systems in various price ranges that are already built and ready to be used.
+	</li>
+	<br>
+	<li>
+		<strong>Custom-Built Computers -</strong>
+		We will build and sell computer systems that are custom-designed according to the customer's preferences. 
+	</li>
+	<br>
+	<li>
+		<strong>Upgrades -</strong>
+		We will offer customers the latest technology available to upgrade the computers they already own.
+	</li>
+	<br>
+	<li>
+		<strong>Service and Repairs -</strong>
+		We will do full-service computer diagnosis and repairs with an emphasis on quality work within an expedient turn-around time.
+	</li>
+	<br>
+	<li>
+		<strong>Networking - </strong>
+		We will offer full networking solutions for both home and office, including wireless networking.
+	</li>
+	<br>
+	<li>
+		<strong>Computer Rental Stations -</strong>
+		We will have work-stations set up where customers can browse the Internet, check e-mail, and download their digital photos from their camera memory cards onto discs. These stations will be rented by the hour, but with no minimum time requirement. This will be useful to both tourists and the local community.
+	</li>
+
+	<br>
+</ul>
+<br>
+</div>
+<footer id="footer">
+	<div class="container con footer-container">
+		<div class="row">
+			<div class="col c1">
+				<h1>PICK PARTS.
+					BUILD YOUR PC.
+					COMPARE AND SHARE</h1>
+			</div>
+			<div class="col c2">
+				<h2>Categories</h2>
+				<ul class="footer_categories">
+					<li><a href="/">System Builds</a></li>
+					<li><a href="/">Build guides</a></li>
+					<li><a href="/">Complete Builds</a></li>
+					<li><a href="/">Brows Products</a></li>
+				</ul>
+			</div>
+			<div class="col c1">
+				<h2>Information</h2>
+				<ul class="footer_information">
+					
+					<li><a href="/">Blog</a></li>
+					<li><a href="/">Downloads</a></li>
+					<li><a href="/">Forums</a></li>
+					<li><a href="/">Price Drop</a></li>
+				</ul>
+			</div>
+			<div class="col c1">
+				<h2>Company</h2>
+				<ul class="footer__secondary-nav">
+					<li><a href="/">System Builds</a></li>
+					<li><a href="/">Build guides</a></li>
+					<li><a href="/">Complete Builds</a></li>
+					<li><a href="/">Brows Products</a></li>
+				</ul>
+			</div>
+			
+		</div>
+		</div>
+		<div class="social-icons">
+			<ul class="social_handles">
+				<li class="icon icon1">
+					<a href="/"><i class="fab fa-facebook-square"></i></a>					
+				</li>						
+				<li class="icon icon2">
+					<a href="/"><i class="fab fa-instagram icon" ></i></a>
+					
+				</li>
+				<li class="icon icon3">
+					<a href="/"><i class="fab fa-discord"></i></a>
+					
+				</li>			
+				<li class="icon icon4">
+					<a href="/"><i class="fab fa-twitch"></i></a>
+					
+				</li>
+				<li class="icon icon5">
+					<a href="/"><i class="fab fa-youtube"></i></a>
+					
+				</li>
+				<li class="icon icon6">
+					<a href="/"><i class="fab fa-twitter"></i></a>
+					
+				</li>
+				
+			</ul>
+		</div>
+</footer>
+
+
+
+
+
+<script src="https://kit.fontawesome.com/6a180733e2.js" crossorigin="anonymous"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="http://malsup.github.com/jquery.cycle2.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" ></script>
+<script src="./script1.js"></script>
+</body>
+</html>
